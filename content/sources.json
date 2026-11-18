@@ -1,0 +1,92 @@
+{
+  "policy": "Farmer-facing lessons are original teaching text written for MenyaMuhinzi. They are informed by the references below and by standard smallholder tomato practice. Full guides are not copied into the course. A qualified agronomist must confirm varieties, spacing, and any input before real farmer training. Personalized spray or fertilizer rates are outside this phase.",
+  "phase": "tomato",
+  "suppliedByTeam": [
+    {
+      "id": "parpac-cm-2024",
+      "file": "FICHE_TECHNIQUE_PRODUCTION_ET_POST_PRODUCTION_TOMATE_PARPAC_ENG.pdf",
+      "title": "Technical and economic data sheet for tomato production and post-production",
+      "publisher": "Ministry of Agriculture and Rural Development, Cameroon",
+      "year": 2024,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "nihort-ng",
+      "file": "PRODUCTION-GUIDE-ON-TOMATO.pdf",
+      "title": "Production guide for tomatoes",
+      "publisher": "Nigeria extension guide (NIHORT-related varieties named in the text)",
+      "year": null,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "practical-action",
+      "file": "tomato-production.pdf",
+      "title": "Tomato production: technical guidelines",
+      "publisher": "Practical Action",
+      "year": null,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "shep-plus-ke",
+      "file": "materials_26.pdf",
+      "title": "SHEP PLUS tomato production training",
+      "publisher": "Ministry of Agriculture, Livestock and Fisheries, Kenya, with JICA",
+      "year": null,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "shep-plus-ke-slides",
+      "file": "materials_15.pdf",
+      "title": "SHEP PLUS tomato production slides",
+      "publisher": "Ministry of Agriculture, Livestock and Fisheries, Kenya, with JICA",
+      "year": null,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "ethio-shep-2019",
+      "file": "02_08_01_04.pdf",
+      "title": "Ethio-SHEP tomato production training",
+      "publisher": "Ethiopia Ministry of Agriculture regional bureaus and JICA",
+      "year": 2019,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "worldveg-2018",
+      "file": "eb0514.pdf",
+      "title": "Field grown tomatoes production technology guide, Madanapalle",
+      "publisher": "World Vegetable Center",
+      "year": 2018,
+      "rights": "Copyright World Vegetable Center. Reference only unless a licence is confirmed."
+    },
+    {
+      "id": "seed-production-hanson",
+      "file": "eam0113.pdf",
+      "title": "Cultivation and seed production of tomato",
+      "publisher": "Guide attributed to Dr. P. Hanson",
+      "year": null,
+      "rights": "Supplied by the project team. Confirm permission before storing or redistributing the original file."
+    },
+    {
+      "id": "qld-1998",
+      "file": "3gro-tom.pdf",
+      "title": "Tomato information kit, 1998 reprint",
+      "publisher": "Queensland Department of Employment, Economic Development and Innovation",
+      "year": 1998,
+      "rights": "Old chemical and cost figures must not be taught. Reference for general crop growth only."
+    }
+  ],
+  "openResourcesToAdd": [
+    {
+      "id": "fao-teca-vegetables",
+      "title": "Vegetable growing, FAO TECA",
+      "url": "https://www.fao.org/family-farming/detail/en/c/1619520/",
+      "use": "Further smallholder vegetable practice. Check the FAO licence before copying any passage."
+    },
+    {
+      "id": "common-voice-rw",
+      "title": "Mozilla Common Voice, Kinyarwanda",
+      "url": "https://commonvoice.mozilla.org/rw",
+      "use": "Free speech recordings for testing transcription. Not a farming textbook."
+    }
+  ]
+}

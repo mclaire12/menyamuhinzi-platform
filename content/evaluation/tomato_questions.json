@@ -1,0 +1,15 @@
+{
+  "note": "Fixed questions for the tomato test. Each item names the lesson the answer must come from. A run passes when retrieval returns that lesson.",
+  "items": [
+    {"id": "ev1", "question": "Umuseme w'inyanya umenyura ibyumweru binge mu ruseme?", "lessonId": "tomato-nursery"},
+    {"id": "ev2", "question": "Ni ryari twimura umuseme w'inyanya?", "lessonId": "tomato-transplant"},
+    {"id": "ev3", "question": "Kuki tutatera inyanya nyuma y'ibirayi?", "lessonId": "tomato-soil"},
+    {"id": "ev4", "question": "Amazi y'inyanya agomba kujya ku mizi cyangwa ku mababi?", "lessonId": "tomato-water"},
+    {"id": "ev5", "question": "Tuta igaragaza iki ku bibabi?", "lessonId": "tomato-pests"},
+    {"id": "ev6", "question": "Kuki duhyigikira inyanya mu gihe cy'imvura?", "lessonId": "tomato-care"},
+    {"id": "ev7", "question": "Ni iki dukoresha mu gutwara inyanya, agaseke cyangwa umufuka?", "lessonId": "tomato-harvest"},
+    {"id": "ev8", "question": "Ni iki ngomba kubaza mbere yo kugura imbuto z'inyanya?", "lessonId": "tomato-market"},
+    {"id": "ev9", "question": "Inyanya ndende itandukaniye gute n'inyanya igufi?", "lessonId": "tomato-intro"},
+    {"id": "ev10", "question": "Ni gute niteza ibigori?", "lessonId": null}
+  ]
+}

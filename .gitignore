@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+venv/
+dist/
+.next/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+data/store.json
+data/jobs/
+content/drafts/*.json
+*.pyc
+.DS_Store

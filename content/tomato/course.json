@@ -1,0 +1,530 @@
+{
+  "course": {
+    "id": "course-tomato",
+    "slug": "tomato",
+    "vegetable": "tomato",
+    "status": "published",
+    "level": "beginner",
+    "title": { "rw": "Inyanya: isomo ry'umuhinzi", "en": "Tomato: a farmer's course" },
+    "summary": {
+      "rw": "Isomo rigufi ry'inyanya mu Kinyarwanda. Rigizwe n'amasomo y'iminota icumi, kuva ku bwoko kugeza ku isoko. Ibyo wigisha byemejwe nk'icyitegererezo cyo kwiga. Umutoza w'ubuhinzi agomba kubisuzuma mbere yo kubyigisha itsinda ry'abahinzi.",
+      "en": "A short Kinyarwanda tomato course. Ten-minute lessons run from varieties to market. This published set is a learning draft. An agronomist should review it before training a farmer group."
+    },
+    "review": {
+      "status": "approved_for_learning_test",
+      "reviewedBy": null,
+      "note": "Iyi ni somo ryo kwiga. Umutoza w'ubuhinzi agomba kuryemeza mbere yo kwigisha itsinda."
+    }
+  },
+  "plannedCourses": [
+    {
+      "id": "course-cabbage",
+      "slug": "cabbage",
+      "vegetable": "cabbage",
+      "status": "planned",
+      "title": { "rw": "Amashu", "en": "Cabbage" },
+      "summary": { "rw": "Iri somo rikuru riraza nyuma y'inyanya.", "en": "This course comes after tomato is stable." }
+    },
+    {
+      "id": "course-carrot",
+      "slug": "carrot",
+      "vegetable": "carrot",
+      "status": "planned",
+      "title": { "rw": "Karoti", "en": "Carrot" },
+      "summary": { "rw": "Iri somo rikuru riraza nyuma y'inyanya.", "en": "This course comes after tomato is stable." }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "tomato-intro",
+      "order": 1,
+      "voice": ["intangiriro", "ubwoko", "varieties", "introduction", "ya mbere"],
+      "illustration": "plant",
+      "status": "published",
+      "title": { "rw": "Ubwoko bw'inyanya n'inyungu zayo", "en": "Tomato varieties and why farmers grow them" },
+      "objectives": { "rw": "Menya icyo inyanya ari cyo, n'ubwoko bubiri bukomeye.", "en": "Know what a tomato is, and the two main growth types." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": {
+            "rw": "Murakaza neza mu isomo ry'inyanya. Uyu munota umwe uragusobanurira icyo tugiye kwiga: ubwoko bw'inyanya, n'impamvu abahinzi bayiteza.",
+            "en": "Welcome to the tomato lesson. This minute introduces what you will learn: tomato types, and why farmers grow them."
+          }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": {
+            "rw": "Inyanya ni ikiribwa cy'umuryango wa Solanaceae, nk'ibirayi, urusenda, n'intoryi. Abahinzi bayiteza kugurisha no kurya mu rugo. Ifite vitamine A na C. Hari ubwoko bubiri bukomeye. Inyanya igufi ikura ikagera ku gipimo ikahagarara. Ikunda gukoreshwa ku isoko no mu gutunganya. Inyanya ndende ikomeza gukura, ikenera inkingi, kandi isarurwa igihe kirekire. Hitamo imbuto zivuye aho zizewe, nka RAB, sosiyete y'imbuto, cyangwa umuhinzi uzi neza. Imbuto zashaje ntizimera neza. Baza umutoza ubwoko bukunda mu butaka n'ikirere by'akarere kawe.",
+            "en": "Tomato is a vegetable in the same family as potato, pepper, and eggplant. Farmers grow it to sell and to eat at home. It provides vitamins A and C. Determinate plants stop at a set size and suit market and processing. Indeterminate plants keep growing, need stakes, and are picked over a longer time. Buy seed from a trusted source such as RAB, a seed company, or a farmer you trust. Old seed germinates poorly. Ask a facilitator which variety suits your soil and climate."
+          }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": {
+            "rw": "Uwiteje inyanya igufi ashobora kuyishyigikira mu gihe cy'imvura kugira ngo imbuto zitikorere ku butaka. Uwiteje inyanya ndende ateganya inkingi mbere yo gutera, kuko izo nyanya zikomeza gukura.",
+            "en": "A farmer who chooses a determinate variety can stake it in the rainy season so fruit does not sit on the soil. A farmer who chooses an indeterminate variety plans the stakes before planting, because those plants keep growing."
+          }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": {
+            "rw": "Inyanya ni ikiribwa cy'amasoko n'urugo. Hitamo ubwoko buhuye n'intego yawe. Koresha imbuto zizewe. Baza umutoza ubwoko bukunda aho uherereye.",
+            "en": "Tomato feeds the household and can be sold. Choose the growth type that matches your goal. Use trusted seed. Ask a facilitator which variety fits your place."
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-intro-q1",
+          "prompt": { "rw": "Inyanya ndende itandukaniye gute n'inyanya igufi?", "en": "How is a tall tomato different from a bush tomato?" },
+          "choices": [
+            { "rw": "Ikomeza gukura kandi ikenera inkingi", "en": "It keeps growing and needs stakes" },
+            { "rw": "Ihagarara vuba kandi ntiyasarurwa", "en": "It stops at once and is never harvested" },
+            { "rw": "Ni ubwoko bw'ibirayi", "en": "It is a potato variety" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Inyanya ndende ikomeza gukura kandi ikenera inkingi. Inyanya igufi ihagarara iyo igeze ku gipimo.", "en": "Indeterminate plants keep growing and need stakes. Determinate plants stop at a set size." }
+        },
+        {
+          "id": "tomato-intro-q2",
+          "prompt": { "rw": "Imbuto z'inyanya zigomba kuva he?", "en": "Where should tomato seed come from?" },
+          "choices": [
+            { "rw": "Aho zizewe, nk'ikigo cyangwa umuhinzi uzi neza", "en": "A trusted source, such as an institute or a farmer you know" },
+            { "rw": "Mu mifuka yashaje udashobora gusoma itariki", "en": "From old packets with no date you can read" },
+            { "rw": "Mu mbuto z'ibirayi", "en": "From potato seed" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Imbuto zizewe zimera neza. Imbuto zashaje ntizimera neza.", "en": "Trusted seed germinates well. Old seed germinates poorly." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-soil",
+      "order": 2,
+      "voice": ["ubutaka", "soil", "ya kabiri"],
+      "illustration": "soil",
+      "status": "published",
+      "title": { "rw": "Ubutaka n'ahantu ho gutera inyanya", "en": "Soil and the place to grow tomato" },
+      "objectives": { "rw": "Menya ubutaka inyanya ikunda, n'ibihe bigomba gutandukanywa.", "en": "Know the soil tomato prefers, and which crops should not come just before it." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Iri somo rigufasha guhitamo ahantu n'ubutaka bikwiye inyanya, mbere yo gushyira imbuto.", "en": "This lesson helps you choose a place and a soil that suit tomato, before you sow." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Inyanya ikunda ubutaka bw'umwondo, bw'ubushye, bufite ifumbire, kandi butajya butemba amazi. Amazi ahagarara mu murima ateranya indwara. Irinde gutera inyanya ako kanya nyuma y'ibirayi, urusenda, intoryi, cyangwa itabi, kuko biri mu muryango umwe kandi bishobora gusangira indwara. Niba bishoboka, tegereza ibihe byibiri mbere yo kugaruka ku nyanya muri iyo mirima. Kuraho ibyatsi binini, ukuremu amabuye, hanyuma uhuze ubutaka n'ubutaka bworoshye. Komposti ishyirwa mbere yo gutera, si ku munsi wo gutera gusa.", "en": "Tomato prefers deep, loose, fertile soil that does not stay waterlogged. Standing water encourages disease. Do not plant tomato straight after potato, pepper, eggplant, or tobacco, because they share a family and can share diseases. Where you can, wait two seasons before returning tomato to the same plot. Clear heavy weeds and stones, then loosen the soil. Add compost before planting day, not only on planting day." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Niba umuhinzi abona amazi ahagarara nyuma y'imvura, atora undi murima cyangwa akora imirongo y'impera kugira ngo amazi asohoke. Niba yateye ibirayi muri iyo murima mu kwezi gushize, atanga inyanya ahandi.", "en": "If a farmer sees water sitting after rain, they choose another plot or raise beds so water can leave. If they grew potato there last season, they put tomato somewhere else." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Hitamo ubutaka bworoshye butemba. Ntutere inyanya ako kanya nyuma y'ibindi bimera bya Solanaceae. Tegura komposti mbere yo gutera.", "en": "Choose loose soil that drains. Do not follow other solanaceous crops immediately. Prepare compost before planting." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-soil-q1",
+          "prompt": { "rw": "Kuki tudatera inyanya ako kanya nyuma y'ibirayi?", "en": "Why not plant tomato immediately after potato?" },
+          "choices": [
+            { "rw": "Biri mu muryango umwe kandi bashobora gusangira indwara", "en": "They are in the same family and can share diseases" },
+            { "rw": "Ibirayi birya imbuto z'inyanya", "en": "Potato eats tomato seed" },
+            { "rw": "Inyanya idashobora guterwa mu butaka", "en": "Tomato cannot be planted in soil" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Ibirayi, urusenda, intoryi, n'itabi biri mu muryango umwe n'inyanya.", "en": "Potato, pepper, eggplant, and tobacco are in the same family as tomato." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-nursery",
+      "order": 3,
+      "voice": ["uruseme", "imbuto", "nursery", "seedling", "ya gatatu"],
+      "illustration": "nursery",
+      "status": "published",
+      "title": { "rw": "Uruseme n'imbuto", "en": "Nursery and seedlings" },
+      "objectives": { "rw": "Menya uko wateza uruseme, n'igihe umuseme uba witeguye.", "en": "Know how to raise a nursery, and when a seedling is ready." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Inyanya itangirira mu ruseme, si ako kanya mu murima munini. Iri somo rigaragaza uko wabika imbuto n'igihe zo kwimura.", "en": "Tomato starts in a nursery, not straight in the main field. This lesson shows how to raise seedlings and when to transplant." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Tegura ubutaka bworoshye buzuye komposti, mu buriri cyangwa mu bikoresho bifite utwobo two gusohora amazi. Shyira imbuto ku bujya bwa hafi santimetero imwe, ukayisukira ubutaka bworoshye. Intera mu ruseme ishobora kuba hafi santimetero eshanu hagati y'imbuto. Meneka mu gitondo, ntumeneshe cyane kugeza ubutaka buba umugezi. Umuzinga ukabije uteranya indwara y'uruseme, aho umuseme ugwa. Germesha mu minsi irindwi kugeza ku icumi. Umuseme umenyura ibyumweru bine kugeza ku bitanu. Mu cyumweru cya nyuma, gabanya igicucu n'amazi buhoro kugira ngo umuseme umenye izuba. Umuseme mwiza ufite ibibabi by'ukuri bike, ukaba ukomeye, ukaba ufite uburebure bwa hafi santimetero cumi kugeza ku cumi n'ebyiri.", "en": "Prepare loose soil mixed with compost, in a bed or in trays with drainage holes. Sow about one centimetre deep and cover with fine soil. In a bed, seeds can sit about five centimetres apart. Water in the morning, and do not flood the bed. Too much water causes damping-off, where seedlings fall over. Germination often takes seven to ten days. Seedlings are usually ready in four to five weeks. In the last week, reduce shade and water gradually so the seedlings meet the sun. A good seedling has a few true leaves, a sturdy stem, and is about ten to twelve centimetres tall." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umuhinzi ashyira uruseme mu gicucu cya nyuma ya saa sita, akamenesha mu gitondo gusa. Iyo abona ibimera bimwe biguye, agabanya amazi kandi akuramo ibyaguye, ahubwo yo kongera kwinjira amazi menshi.", "en": "A farmer shades the nursery in the hot afternoon and waters only in the morning. When a few seedlings fall over, they water less and remove the fallen ones, rather than adding more water." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Tera imbuto mu ruseme rwiza, umeneshe mu gitondo, ukuremo ibyatsi n'ibimera byaguye. Imura nyuma y'ibyumweru bine kugeza ku bitanu, nyuma yo kumenya izuba.", "en": "Sow in a clean nursery, water in the morning, and remove weeds and fallen seedlings. Transplant after four to five weeks, once the seedlings have been hardened." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-nursery-q1",
+          "prompt": { "rw": "Umuseme w'inyanya umenyura igihe kingana iki mbere yo kwimurwa?", "en": "How long does a tomato seedling usually stay in the nursery?" },
+          "choices": [
+            { "rw": "Ibyumweru bine kugeza ku bitanu", "en": "Four to five weeks" },
+            { "rw": "Umunsi umwe", "en": "One day" },
+            { "rw": "Amezi atandatu", "en": "Six months" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Umuseme umenyura ibyumweru bine kugeza ku bitanu, hanyuma umenya izuba mu cyumweru cya nyuma.", "en": "Seedlings usually need four to five weeks, with hardening in the last week." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-transplant",
+      "order": 4,
+      "voice": ["kwimura", "gutera", "transplant", "intera", "ya kane"],
+      "illustration": "transplant",
+      "status": "published",
+      "title": { "rw": "Kwimura no gutera mu murima", "en": "Transplanting into the field" },
+      "objectives": { "rw": "Menya igihe n'uko wimura umuseme, n'intera y'inyigisho.", "en": "Know when and how to transplant, and the spacing used in this lesson." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Umuseme witeguye ugomba kwimurwa neza kugira ngo utavuna imizi. Iri somo rigaragaza igihe, intera, n'uko wuhira ako kanya.", "en": "A ready seedling must be moved carefully so the roots are not torn. This lesson covers timing, spacing, and the first watering." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Imura mu gicucu cya nimugoroba cyangwa ku munsi w'ibicu, si ku zuba rikeje. Fata umuseme n'ubutaka buke ku mizi. Butaka bw'impera bufasha amazi kutahagarara. Intera y'inyigisho ku nyanya zishyigikiwe ni hafi santimetero mirongo itanu hagati y'ibimera, na santimetero mirongo umunani hagati y'imirongo. Umutoza wawe ashobora kuyihindura hashingiwe ku bwoko n'ubutaka. Shyira umuseme ku bujya bwo mu ruseme, utabuhumbya cyane. Uhira ako kanya nyuma yo gutera. Niba hari komposti itarashyirwa, igomba kuba yarashyizwe mbere, si ikintu cyo gushyira ku ibabi.", "en": "Transplant in the late afternoon or on a cloudy day, not in harsh sun. Lift the seedling with a little soil on the roots. Raised beds help water drain. The spacing taught here for staked tomato is about fifty centimetres between plants and eighty centimetres between rows. Your facilitator may change that for the variety and the soil. Set the seedling at the same depth it had in the nursery, and do not bury it too deep. Water immediately after planting. Compost belongs in the soil beforehand, not on the leaves." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umuhinzi abarura imirongo, ashyira ikimenyetso buri santimetero mirongo itanu, hanyuma ateraho umuseme umwe ku kimenyetso. Nyuma yo gutera, uha amazi buri umuseme mbere yo kuva mu murima.", "en": "A farmer marks rows, places a mark every fifty centimetres, and sets one seedling at each mark. After planting, every seedling gets water before the farmer leaves the field." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Imura nimugoroba, ukomeze intera y'inyigisho, uhire ako kanya. Baza umutoza niba ubwoko bwawe bukeneye indi ntera.", "en": "Transplant late in the day, keep the lesson spacing, and water at once. Ask the facilitator if your variety needs a different spacing." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-transplant-q1",
+          "prompt": { "rw": "Ni ryari ryiza ryo kwimura umuseme?", "en": "When is a good time to transplant?" },
+          "choices": [
+            { "rw": "Nimugoroba cyangwa ku munsi w'ibicu", "en": "Late afternoon or a cloudy day" },
+            { "rw": "Ku zuba ryo mu gicucu gikeje gusa", "en": "Only at the hottest midday sun" },
+            { "rw": "Iyo umuseme utangiye kwuma", "en": "When the seedling has already dried out" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Izuba rikeje ryuma umuseme. Nimugoroba n'ibicu bifasha.", "en": "Harsh sun wilts a new seedling. Late afternoon and cloud cover help." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-water",
+      "order": 5,
+      "voice": ["kuhira", "ifumbire", "amazi", "komposti", "water", "fertilizer", "ya gatanu"],
+      "illustration": "water",
+      "status": "published",
+      "title": { "rw": "Amazi n'ifumbire nk'isomo", "en": "Water and fertilizer as a lesson" },
+      "objectives": { "rw": "Menya uko wuhira inyanya, n'uko ifumbire ihamagarira umutoza.", "en": "Know how to water tomato, and that fertilizer rates need a facilitator." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Inyanya ikeneye amazi ahagije, ariko ntiyifuza kubeshwaho. Iri somo rigaragaza amazi na komposti. Ingano y'ifumbire y'ibikoresho igomba kuva ku mutoza cyangwa ku busuzuma bw'ubutaka.", "en": "Tomato needs enough water, but not a flooded field. This lesson covers water and compost. Any chemical fertilizer rate must come from a facilitator or a soil test." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Uhira ku mizi, si ku mababi, kugira ngo udahumeka indwara. Meneka mu gitondo. Reba ubutaka: niba bukumye ku ntoki, uhe amazi; niba bukimwenyeka kandi bukonje, tegereza. Komposti ishyirwa mbere yo gutera kandi ishobora kongerwa hafi y'igiti utayishyira ku giti ubwacyo. Iyi somo ntiriha ingano y'ifumbire y'ibikoresho, kuko ingano ihinduka hashingiwe ku butaka. Baza umutoza nyuma yo gusuzuma ubutaka. Gutwikira ubutaka n'ibyatsi byumye bifasha amazi kugumaho kandi bifasha imbuto kutikorera hasi.", "en": "Water the soil at the roots, not the leaves, so you do not wet the foliage and invite disease. Water in the morning. Test the soil: if it is dry in the hand, water; if it still holds together and feels cool, wait. Compost goes in before planting and can be added beside the plant, not piled on the stem. This lesson does not give a chemical fertilizer rate, because the rate depends on the soil. Ask a facilitator after a soil test. A mulch of dry grass keeps moisture and keeps fruit off the soil." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Mu gihe cy'imvura, umuhinzi areba niba amazi atahagaze mu mirongo mbere yo kongera kuhira. Mu gihe cy'izuba, ahirira mu gitondo kandi akomeza ubutaka butwikiriwe n'ibyatsi byumye.", "en": "In the rainy season, the farmer checks that water is not standing in the rows before watering again. In the dry season, they water in the morning and keep a dry-grass mulch." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Uhira ku mizi mu gitondo. Koresha komposti. Ingano y'ifumbire y'ibikoresho igomba kumva umutoza. Twikira ubutaka kugira ngo amazi agume.", "en": "Water the roots in the morning. Use compost. Ask a facilitator before any chemical fertilizer rate. Mulch to keep moisture." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-water-q1",
+          "prompt": { "rw": "Amazi y'inyanya agomba kujya he?", "en": "Where should irrigation water go?" },
+          "choices": [
+            { "rw": "Ku mizi, mu gitondo", "en": "At the roots, in the morning" },
+            { "rw": "Ku mababi ku zuba rikeje", "en": "On the leaves at midday" },
+            { "rw": "Mu masaka y'amazi ahagarara", "en": "Into standing puddles" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Amazi ku mababi no mu butaka butemba ateranya indwara.", "en": "Wet leaves and waterlogged soil encourage disease." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-pests",
+      "order": 6,
+      "voice": ["udukoko", "indwara", "pest", "disease", "tuta", "ya gatandatu"],
+      "illustration": "pest",
+      "status": "published",
+      "title": { "rw": "Uduko n'indwara: kubimenya nk'isomo", "en": "Pests and diseases: learning to notice them" },
+      "objectives": { "rw": "Menya ibimenyetso bikunze kuboneka, n'ibyo gukora utavuze umuti.", "en": "Recognize common signs, and know what to do before any spray is discussed." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Iri somo rigufasha kubona ikibazo kare. Ntiriguha umuti cyangwa ingano yo gukoresha. Ibyo bigomba kuvugwa n'umutoza nyuma yo kubona igiti.", "en": "This lesson helps you notice a problem early. It does not prescribe a chemical or a dose. That conversation belongs with a facilitator who has seen the plant." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Tuta ni udukoko dufata ibibabi no mu mbuto, dukagira utwobo n'udushishozi. Kuramo ibibabi bikomye ukabishira kure y'umurima. Imibu y'umweru iba munsi y'ibibabi, ishobora no kwangiza. Indwara y'umuhondo mu gihe cy'imvura igaragaza ibibabi byijimye. Ongera umwuka hagati y'ibiti, ukuremo igiti kirwaye, kandi ubaze umutoza mbere yo gukoresha umuti. Niba igiti cyuma kandi kibisi, gishobora kuba indwara yo mu mizi. Kikuremo, ntukagishyire mu komposti, kandi ntutere inyanya aho ako kanya. Mu ruseme, umuseme ugwa iyo amazi ari menshi. Gabanya amazi kandi ukoreshe ubutaka busukuye.", "en": "Tuta absoluta mines leaves and fruit, leaving tunnels and small holes. Remove badly mined leaves and take them away from the field. Whiteflies sit under leaves and can weaken plants. In wet weather, late blight shows as darkened leaves. Give plants more air, remove a badly sick plant, and ask a facilitator before any spray. If a plant wilts while still green, it may be a wilt from the soil. Pull it out, do not compost it, and do not replant tomato there at once. In the nursery, seedlings fall over when the bed is too wet. Water less and use clean soil." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umuhinzi abona udushishozi ku bibabi. Akuramo ayo mababi, ayashyira kure, hanyuma ahamagara umutoza kugira ngo barebe niba ari tuta. Ntabanza guhita asiga umuti atabonye igiti na we.", "en": "A farmer sees tunnels in the leaves. They remove those leaves, take them away, and call the facilitator to look before deciding it is tuta. They do not spray first." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Reba ibibabi, imbuto, n'igiti cyumye. Kuramo ibyaguye ukabishira kure. Baza umutoza mbere yo gukoresha umuti. Iyi somo ntiriha ingano.", "en": "Check leaves, fruit, and any plant that wilts. Remove damaged parts and take them away. Ask a facilitator before spraying. This lesson gives no dose." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-pests-q1",
+          "prompt": { "rw": "Iyi somo igutegeka iki mbere yo gukoresha umuti?", "en": "What does this lesson tell you to do before using a spray?" },
+          "choices": [
+            { "rw": "Kubaza umutoza wabonye igiti", "en": "Ask a facilitator who has seen the plant" },
+            { "rw": "Gukoresha umuti wose uri mu nzu", "en": "Use any chemical already in the house" },
+            { "rw": "Gushyira igiti kirwaye mu komposti", "en": "Put the sick plant in the compost" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Ingano y'umuti si iri muri iki gihe. Umutoza ni we uyemeza.", "en": "Doses are not part of this phase. A facilitator confirms any treatment." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-care",
+      "order": 7,
+      "voice": ["gushyigikira", "kwita", "staking", "ibyatsi", "ya karindwi"],
+      "illustration": "care",
+      "status": "published",
+      "title": { "rw": "Kwita ku murima", "en": "Looking after the crop" },
+      "objectives": { "rw": "Menya kumagara, gushyigikira, no gukata uduheri.", "en": "Know weeding, staking, and removing side shoots." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Nyuma yo gutera, inyanya ikeneye umwuka, inkingi, n'umurima utuzuye ibyatsi.", "en": "After planting, tomato needs air, support, and a field that is not full of weeds." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Magara kare, mbere yuko ibyatsi binini birya amazi n'ifumbire. Ukoreshe intoki hafi y'igiti kugira ngo utavune imizi. Mu gihe cy'imvura, shyigikira inyanya kugira ngo imbuto zitikorere ku butaka. Inkingi ishyirwa hafi y'igiti, hanyuma igiti kibohozwa buhoro, kitagafungirwa. Ku nyanya ndende, kata uduheri two mu maso y'ibibabi kugira ngo umwuka winjire kandi ingufu zigere ku mbuto. Ntukate ibibabi byose. Reba umurima buri cyumweru: ibyatsi, inkingi zaguye, n'ibiti byumye.", "en": "Weed early, before large weeds take water and nutrients. Use your hands close to the plant so you do not cut the roots. In the rainy season, stake tomato so fruit does not rest on the soil. Put the stake beside the plant and tie the stem loosely. On tall varieties, remove side shoots from the leaf axils so air can move and energy goes to fruit. Do not strip every leaf. Walk the field each week: weeds, fallen stakes, and wilted plants." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umuhinzi ashyira inkingi mu cyumweru cya mbere nyuma yo gutera, atarinze ko igiti kirembye. Abohoza igiti n'urukarakara rw'ibyatsi, akareka umwanya kugira ngo igiti gikure.", "en": "A farmer sets stakes in the first week after transplanting, before the plant flops. They tie with a strip of dry grass and leave room for the stem to thicken." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Magara kare, shyigikira mu gihe cy'imvura, kandi kata uduheri ku nyanya ndende. Suzuma umurima buri cyumweru.", "en": "Weed early, stake in the rains, and remove side shoots on tall plants. Check the field every week." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-care-q1",
+          "prompt": { "rw": "Kuki inyanya ishyigikirwa mu gihe cy'imvura?", "en": "Why stake tomato in the rainy season?" },
+          "choices": [
+            { "rw": "Kugira ngo imbuto zitikorere ku butaka", "en": "So fruit does not rest on the soil" },
+            { "rw": "Kugira ngo imvura ihagarare ku mababi", "en": "So rain sits on the leaves" },
+            { "rw": "Kugira ngo udukoko dube menshi", "en": "So there are more pests" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Imbuto ziri ku butaka buruhumye zirwara vuba.", "en": "Fruit sitting on wet soil spoils more quickly." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-harvest",
+      "order": 8,
+      "voice": ["gusarura", "harvest", "nyuma", "post", "ya munani"],
+      "illustration": "harvest",
+      "status": "published",
+      "title": { "rw": "Gusarura no kubika inyanya", "en": "Harvest and handling after harvest" },
+      "objectives": { "rw": "Menya igihe cyo gusarura, n'uko ubika imbuto utazitonona.", "en": "Know when to pick, and how to carry fruit without bruising it." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Gusarura neza kibika umusaruro. Iri somo rigaragaza ibara, igihe, n'ibikoresho byo gutwara.", "en": "A careful harvest protects the yield. This lesson covers colour, timing, and what you carry fruit in." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Imbuto itangiye guhindura ibara ishobora gusarurwa iyo ugiye kugurisha kure, kuko ikomeza kwera. Imbuto y'umutuku yuzuye ikwiye urugo n'isoko riri hafi. Sara mu gitondo igihe imbuto itari ishyushye. Ntukore imbuto y'ibicu cyangwa ifite udukoko. Shyira mu gaseke cyangwa mu gasanduku, si mu mufuka ukomatanya. Shyira mu gicucu, kure y'ubushyuhe. Ntukande imbuto. Imbuto yatononekaye itandukanijwe n'iyiza kugira ngo itanduza izindi. Niba ugurisha, andika umusaruro w'umunsi kugira ngo umenye igiciro n'igihombo.", "en": "Fruit that has just started to change colour can be picked for a distant market, because it continues to ripen. Fully red fruit suits the home and a nearby market. Pick in the morning while fruit is cool. Leave fruit that is rotten or full of insects. Use a crate or a basket, not a sack that crushes. Keep fruit in the shade, away from heat. Do not press it. Separate damaged fruit so it does not spoil the rest. If you sell, write down the day's yield so you can see price and loss." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umuhinzi ugurisha i Kigali asarura imbuto zitangiye kwera, azishyira mu gasanduku, akazishyira mu gicucu kugeza ubusa. Umuhinzi ugurisha mu mudugudu asarura imbuto y'umutuku.", "en": "A farmer selling in Kigali picks fruit as the colour breaks, packs crates, and keeps them shaded until the bus. A farmer selling in the village picks fully red fruit." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Sara mu gitondo, uhitamo ibara hashingiwe ku isoko, ukoreshe agaseke, kandi utandukanya imbuto yatononekaye.", "en": "Pick in the morning, match colour to the market, use a crate, and separate damaged fruit." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-harvest-q1",
+          "prompt": { "rw": "Kuki imbuto igurishwa kure ishobora gusarurwa itangiye guhindura ibara?", "en": "Why can fruit for a distant market be picked as it starts to change colour?" },
+          "choices": [
+            { "rw": "Ikomeza kwera mu nzira", "en": "It keeps ripening on the way" },
+            { "rw": "Ntigisazwe ikwiriye kurywa", "en": "It never becomes ready to eat" },
+            { "rw": "Kuko imifuka ari myiza kurusha agaseke", "en": "Because sacks are better than crates" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Imbuto itangiye kwera ikomeza kwera. Agaseke gakingira kurusha umufuka.", "en": "Breaker fruit continues to ripen. A crate protects fruit better than a sack." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-market",
+      "order": 9,
+      "voice": ["isoko", "market", "amafaranga", "ya cyenda"],
+      "illustration": "market",
+      "status": "published",
+      "title": { "rw": "Isoko n'inyungu z'umurima", "en": "Market and whether the crop can pay" },
+      "objectives": { "rw": "Menya kubaza isoko mbere yo gutera, no kugereranya ikiguzi.", "en": "Know how to ask about the market before planting, and how to sketch costs." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Gutera inyanya bitangirira ku kibazo: ndayigurisha nde, na ryari? Iri somo ni intangiriro, si isoko ry'ikoranabuhanga.", "en": "Planting tomato starts with a question: who will buy it, and when? This lesson is an introduction, not a trading platform." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Mbere yo kugura imbuto, vugana n'umuguzi, isoko, cyangwa koperative. Baza igiciro cy'iki gihe, n'igihe abantu bakeneye inyanya. Andika ikiguzi: imbuto, komposti, inkingi, amazi, n'urugendo rwo kujya ku isoko. Gereranya n'igiciro wizeye. Niba abahinzi bose basarura icyumweru kimwe, igiciro kiragabanuka. Niba ubishoboye, tandukanya igihe cyo gutera n'abandi bake. Iyi somo ntiriguha igiciro cy'uyu munsi, kuko igiciro gihinduka. Andika ibyo ubonye ku isoko mbere yo gufata icyemezo.", "en": "Before you buy seed, talk to a buyer, a market, or a cooperative. Ask today's price and the weeks when people want tomato. Write the costs: seed, compost, stakes, water, and the trip to market. Compare that with the price you hope for. If every farmer harvests the same week, the price falls. If you can, stagger planting a little from your neighbours. This lesson does not quote today's price, because prices move. Write down what you heard at the market before you decide." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umuhinzi abaza abagurisha babiri. Bombi bavuga ko inyanya nyinshi zija mu kwezi kanama. Ateganya uruseme kugira ngo asarure mbere y'icyo kwezi, kandi abandika igiciro cy'imbuto n'inkingi.", "en": "A farmer asks two sellers. Both say a lot of tomato arrives in August. The farmer times the nursery to harvest before that month, and writes down the cost of seed and stakes." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Baza umuguzi mbere yo gutera. Andika ikiguzi n'igiciro. Gerageza kutasarura icyumweru kimwe n'abandi bose.", "en": "Ask a buyer before you plant. Write costs and the price. Try not to harvest in the same week as everyone else." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tomato-market-q1",
+          "prompt": { "rw": "Ni iki ugomba kubaza mbere yo kugura imbuto?", "en": "What should you ask before buying seed?" },
+          "choices": [
+            { "rw": "Nde ugura, ryari, n'igiciro kingana iki", "en": "Who buys, when, and at what price" },
+            { "rw": "Nta kibazo, imbuto zigurwa mbere", "en": "Nothing, seed comes first" },
+            { "rw": "Igiciro cy'ibirayi gusa", "en": "Only the potato price" }
+          ],
+          "answer": 0,
+          "explanation": { "rw": "Isoko ribazwa mbere yo gutera, kuko igiciro gihinduka.", "en": "Ask the market before planting, because the price changes." }
+        }
+      ]
+    },
+    {
+      "id": "tomato-draft-pruning-note",
+      "order": 10,
+      "voice": [],
+      "illustration": "care",
+      "status": "draft",
+      "title": { "rw": "Inyandiko y'umutoza: gukata uduheri", "en": "Facilitator draft: side shoots" },
+      "objectives": { "rw": "Iyi ni inyandiko itarasohoka. Umutoza ayikosora mbere y'uko abahinzi bayibona.", "en": "This note is unpublished. A facilitator edits it before farmers can see it." },
+      "beats": [
+        {
+          "id": "intro",
+          "minutes": 1,
+          "title": { "rw": "Intangiriro", "en": "Introduction" },
+          "text": { "rw": "Inyandiko y'icyitegererezo. Sobanura uduheri two mu maso y'ibibabi ku nyanya ndende.", "en": "Sample draft. Explain side shoots in the leaf axils of tall tomato." }
+        },
+        {
+          "id": "teach",
+          "minutes": 5,
+          "title": { "rw": "Isomo", "en": "Teaching" },
+          "text": { "rw": "Uduheri ni amashami mato ava aho ikibabi gihura n'igiti. Ku nyanya ndende, gukata uduheri duto bifasha umwuka n'imbuto. Ntukate uduheri duto ku nyanya igufi keretse umutoza abivuze.", "en": "Side shoots are small stems that start where a leaf meets the stem. On tall plants, removing small side shoots helps air and fruit. Do not strip side shoots on bush types unless a facilitator says so." }
+        },
+        {
+          "id": "example",
+          "minutes": 2,
+          "title": { "rw": "Urugero", "en": "Example" },
+          "text": { "rw": "Umutoza yerekana umuhinzi aho gukata, akoreshe intoki, atari icyuma kidasukuye.", "en": "The facilitator shows the farmer where to pinch, with fingers, not with a dirty knife." }
+        },
+        {
+          "id": "summary",
+          "minutes": 2,
+          "title": { "rw": "Incamake", "en": "Summary" },
+          "text": { "rw": "Iyi nyandiko iracyari inyandiko. Emeza nyuma yo kuyikosora.", "en": "This note is still a draft. Publish it only after review." }
+        }
+      ],
+      "quiz": []
+    }
+  ]
+}
